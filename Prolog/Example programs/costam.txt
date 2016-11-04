@@ -1,0 +1,9 @@
+vars([x]).
+arrays([]).
+program([
+	assign(x, pid),
+	condGoto(x < pid, 4),
+	goto(5),
+	sekcja,
+	goto(1)
+]).
